@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# 项目说明
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+当前使用的node 版本为 18.13.0
+
+1. 请先把项目代码拉到本地或下载
+2. 下载好后进入目录 npm i 或 yarn 
+3. 完成后可进行测试
 
 ## Available Scripts
 
