@@ -5,6 +5,7 @@
 1. 请先把项目代码拉到本地或下载
 2. 下载好后进入目录 npm i 或 yarn 
 3. 完成后可进行测试
+4. 项目本地地址为 http://localhost:3000
 
 ## Available Scripts
 
