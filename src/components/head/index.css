@@ -1,0 +1,63 @@
+
+
+
+.Com-head-flex {
+  display: flex;  
+  flex-direction: column;
+}
+
+
+.Com-head-flex1 {
+  flex: 1;
+  
+}
+
+.Com-head {
+   flex-direction: row;
+   height: 50px;
+   max-width: 100%;
+   /* background-color: blue; */
+   align-items: center;
+   padding: 0px 15px 0px 15px;
+   /* justify-content: center; */
+   border-bottom: 1px solid #f0f0f0;
+}
+
+.Com-head-text {
+  font-size:18px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+
+.Com-head-bold {
+  font-weight: 600;
+}
+
+.Com-head-box {
+  cursor: default;
+}
+.Com-head-search{
+  width: 84%;
+}
+
+@media screen and (max-width: 550px) {
+  .Com-head-bold {
+    font-weight: 400;
+  }
+  .Com-head-text {
+    display: none;
+  }
+  .Com-head-box {
+    width: 36px;
+    height: 36px;
+    background:url(../../res/logo.jpg) no-repeat;
+    background-size: contain;
+    border-radius: 5px;
+    border: 1px solid #f0f0f0;
+  }
+  .Com-head-search{
+    width: 100%;
+  }
+}

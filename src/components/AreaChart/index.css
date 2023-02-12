@@ -1,0 +1,63 @@
+.area-text-bold{
+    font-weight: 600;
+    color: #ff00ff;
+}
+
+.AreaChart-container {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    border: 1px #f0f0f0 solid;
+    margin: 0px 8px 16px 8px;
+    border-radius: 5px;
+
+    
+}
+.AreaChart-container-Area {
+    width: 100%;
+    height: 120px;
+    /* height: 100%; */
+    /* background-color: #ff00ff; */
+
+
+}
+
+
+.AreaChart-title{
+    font-size: 18px;
+    margin: 12px ;
+}
+
+.AreaChart-title-sub{
+    font-size: 16px;
+    margin-left: 11px;
+    color: #929292;
+    /* margin: 12px ; */
+}
+
+.AreaChart-xlaber{
+    width: 100%;
+    height: 25px;
+    background-color: #f0f0f0;
+    text-align: center;
+    font-size: 13px;
+    line-height: 25px;
+    color: #929292;
+}
+
+@media screen and (max-width: 810px) {
+    .AreaChart-container {
+        width: 48.2%;
+        margin: 0px 4px 16px 4px;
+    }
+    .AreaChart-container-Area {
+        height: 300px;
+    }
+ 
+  }
+
+  @media screen and (max-width: 550px) {
+    .AreaChart-container {
+        width:97.8%;
+    }
+  }
